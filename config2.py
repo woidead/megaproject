@@ -196,7 +196,7 @@ if l == 'админ':
                 m = input('введите новую позицию("заказчик","модель", количество, цена, общая сумма, номер, карта)')
                 cursor.execute(f'INSERT INTO orders(orderer, product, count, Price, cost, number, card) VALUES({m})')
                 connect.commit()
-
+print('hello world')
 
 cursor.close()
 connect.close()
